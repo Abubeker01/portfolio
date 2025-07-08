@@ -111,7 +111,7 @@ const Projects = () => {
                 <p className="text-gray-600 mb-6 flex-grow">
                   Developed this comprehensive multi-referral system end-to-end.
                   Handled all aspects from frontend user interface to backend
-                  logic and database management."
+                  logic and database management.
                 </p>
                 <div className="flex space-x-4 mt-auto">
                   <button
