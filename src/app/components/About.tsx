@@ -1,29 +1,51 @@
-import Image from 'next/image';
+import Image from "next/image";
+import tempo from "@/assets/tempo.png";
+import ccna from "@/assets/ccna.png";
 
 const AboutMe = () => {
   return (
-    <section className="bg-white py-12 md:py-20">
-      <div className="container mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16">
+    <section id="about" className="py-10 md:py-10">
+      {/* Section Title */}
+      <div className="text-center mb-8">
+        <h2 className="text-4xl font-bold text-gray-800">About Me</h2>
+        <div className="mt-2 w-24 h-1 bg-yellow-400 mx-auto"></div>
+      </div>
 
+      <div className="bg-white p-8 mx-auto max-w-6xl">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-20 md:gap-20 bg-white">
           {/* Left Column: About Me Text */}
-          <div className="md:col-span-2">
-            <h2 className="text-4xl font-bold text-gray-800 mb-6">
-              About me
-            </h2>
+          <div className="md:col-span-2 mr-18">
             <div className="space-y-4 text-gray-600 text-lg leading-relaxed">
               <p>
-                My journey into software development began at Adama Science & Technology University, where I graduated with a degree in Computer Science & Engineering. There, I built a strong foundation in core concepts like algorithms, data structures, software design, and computer networks.
+                As a passionate and detail-oriented software developer, I thrive
+                on turning complex problems into elegant, user-friendly
+                solutions. My foundation in the field was built at Adama Science
+                & Technology University, where I graduated with a B.Sc. in
+                Computer Science & Engineering. My academic career was a deep
+                dive into the core principles of software development, including
+                rigorous coursework in algorithms, data structures, software
+                architecture, and computer networks.
               </p>
               <p>
-                My studies blended theoretical knowledge with practical, hands-on projects, giving me a comprehensive understanding of everything from backend architectures to intuitive user interfaces. Beyond coding, I genuinely enjoy the design process, specifically leveraging Figma for wireframing, prototyping, and creating clean, user-friendly interfaces—it’s an integral part of how I approach problem-solving and product development.
+                This theoretical knowledge was consistently put to the test
+                through a variety of hands-on projects, which gave me a holistic
+                understanding of the full development lifecycle. I am as
+                comfortable architecting a backend system as I am designing an
+                intuitive user interface. My passion for design naturally led me
+                to master Figma for wireframing, prototyping, and creating
+                visually appealing and highly functional UIs. This blend of
+                technical expertise and design sensibility is central to how I
+                approach product development, always aiming to create solutions
+                that are both powerful and easy to use. I am now looking to
+                bring my skills and dedication to a forward-thinking team where
+                I can contribute to building exceptional software.
               </p>
             </div>
           </div>
 
           {/* Right Column: Education & Certifications */}
           <div className="md:col-span-1">
-            <h3 className="text-2xl font-bold text-gray-800 mb-6">
+            <h3 className="text-2xl font-bold text-gray-800 mb-6 -mt-2">
               Education & Certifications
             </h3>
             <div className="space-y-6">
@@ -31,11 +53,11 @@ const AboutMe = () => {
               <div className="flex items-center">
                 <div className="flex-shrink-0">
                   <Image
-                    src="/degree.png" // Replace with your actual image path
+                    src={tempo}
                     alt="University Degree"
                     width={80}
                     height={80}
-                    className="rounded-full object-cover"
+                    className="rounded-lg"
                   />
                 </div>
                 <div className="ml-4">
@@ -51,8 +73,8 @@ const AboutMe = () => {
               {/* Cisco Certification */}
               <div className="flex items-center">
                 <div className="flex-shrink-0">
-                   <Image
-                    src="/ccna-badge.png" // Replace with your actual image path
+                  <Image
+                    src={ccna}
                     alt="Cisco CCNA Certification Badge"
                     width={80}
                     height={80}
@@ -63,14 +85,13 @@ const AboutMe = () => {
                   <p className="font-semibold text-gray-800">
                     Completed Cisco Networking courses (CCNA)
                   </p>
-                   <p className="text-gray-600">
+                  <p className="text-gray-600">
                     via Cisco's official learning platform
                   </p>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>

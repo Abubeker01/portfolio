@@ -77,9 +77,9 @@ const Skills = () => {
   );
 };
 
-export default function App() {
+export default function Skill() {
   return (
-    <main className="flex items-center justify-center min-h-screen bg-gray-100">
+    <main className="flex items-center justify-center min-h-screen bg-white">
       <Skills />
     </main>
   );
