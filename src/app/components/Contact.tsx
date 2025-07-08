@@ -2,7 +2,10 @@ import { Mail, Phone } from "lucide-react";
 
 export default function Contact() {
   return (
-    <div id="contact" className="bg-white font-sans text-gray-800 antialiased scroll-mt-22">
+    <div
+      id="contact"
+      className="bg-white font-sans text-gray-800 antialiased scroll-mt-22"
+    >
       <main className="container mx-auto px-4 py-6 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           {/* Header Section */}
@@ -16,9 +19,9 @@ export default function Contact() {
               </div>
             </div>
             <p className="mt-6 text-lg text-gray-600 max-w-2xl mx-auto">
-              Have a question, a project in mind, or just want to say hello? I&apos;d
-              love to hear from you! Please use the form below or find my
-              contact details below.
+              Have a question, a project in mind, or just want to say hello?
+              I&apos;d love to hear from you! Please use the form below or find
+              my contact details below.
             </p>
           </div>
 
@@ -57,9 +60,14 @@ export default function Contact() {
                 </div>
               </div>
               <div className="mb-6">
-                <button className="px-8 py-3 bg-yellow-400 text-gray-900 font-bold rounded-lg hover:bg-yellow-500 transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-opacity-50">
+                <a
+                  href="https://drive.google.com/file/d/12Vbuj79YRS9C-8mD40DyMNETYqouo6o0/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-8 py-3 bg-yellow-400 text-gray-900 font-bold rounded-lg hover:bg-yellow-500 transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-opacity-50 inline-block text-center"
+                >
                   Resume
-                </button>
+                </a>
               </div>
             </div>
 
