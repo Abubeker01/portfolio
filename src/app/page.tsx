@@ -3,6 +3,7 @@ import Contact from './components/Contact';
 import Hero from './components/Hero';
 import About from './components/About';
 import Skill from './components/Skill';
+import ScrollToTopButton from './components/scrollToTop';
 
 export default function Home(){
   return (
@@ -10,8 +11,9 @@ export default function Home(){
       <Hero />
       <About />
       <Projects />
-      <Skill />
+      <Skill /> 
       <Contact />
+      <ScrollToTopButton />
     </main>
   );
 }

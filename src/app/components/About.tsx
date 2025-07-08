@@ -4,7 +4,7 @@ import ccna from "@/assets/ccna.png";
 
 const AboutMe = () => {
   return (
-    <section id="about" className="py-10 md:py-10">
+    <section id="about" className="py-10 md:py-10 scroll-mt-22">
       {/* Section Title */}
       <div className="text-center mb-8">
         <h2 className="text-4xl font-bold text-gray-800">About Me</h2>

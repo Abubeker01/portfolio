@@ -79,7 +79,7 @@ const Skills = () => {
 
 export default function Skill() {
   return (
-    <main className="flex items-center justify-center min-h-screen bg-white">
+    <main id='skill' className="flex items-center justify-center min-h-screen bg-white scroll-mt-22">
       <Skills />
     </main>
   );

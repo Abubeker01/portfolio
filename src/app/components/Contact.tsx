@@ -2,7 +2,7 @@ import { Mail, Phone } from "lucide-react";
 
 export default function Contact() {
   return (
-    <div className="bg-white font-sans text-gray-800 antialiased">
+    <div id="contact" className="bg-white font-sans text-gray-800 antialiased scroll-mt-22">
       <main className="container mx-auto px-4 py-6 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           {/* Header Section */}

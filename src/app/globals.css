@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
+
 @import "tailwindcss";
+
 
 html {
   font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
 }
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+}
+
+.font-arizonia {
+  font-family: 'Arizonia', cursive;
 }
 
 @theme inline {
@@ -19,9 +28,27 @@ html {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #ffffff;
     --foreground: #ededed;
   }
+}
+
+/* ...existing code... */
+
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.animate-wave {
+  animation: wave 2s infinite;
+  transform-origin: 70% 70%;
 }
 
 body {
@@ -30,4 +57,5 @@ body {
   /* This font-family is likely overridden by the 'html' rule or Tailwind's base styles.
      You might want to remove it or ensure it's what you intend. */
   font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
 }
