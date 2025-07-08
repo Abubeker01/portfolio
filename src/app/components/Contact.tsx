@@ -16,7 +16,7 @@ export default function Contact() {
               </div>
             </div>
             <p className="mt-6 text-lg text-gray-600 max-w-2xl mx-auto">
-              Have a question, a project in mind, or just want to say hello? I'd
+              Have a question, a project in mind, or just want to say hello? I&apos;d
               love to hear from you! Please use the form below or find my
               contact details below.
             </p>

@@ -86,7 +86,7 @@ const AboutMe = () => {
                     Completed Cisco Networking courses (CCNA)
                   </p>
                   <p className="text-gray-600">
-                    via Cisco's official learning platform
+                    via Cisco&apos;s official learning platform
                   </p>
                 </div>
               </div>

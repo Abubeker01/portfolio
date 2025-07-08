@@ -23,14 +23,14 @@ export default function Hero() {
                   👋
                 </span>
                 <br />
-                I'm Abubeker
+                I&apos;m Abubeker
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed">
-                I'm a Full-Stack Software Developer passionate about bringing
+                I&apos;m a Full-Stack Software Developer passionate about bringing
                 digital experiences to life. From Figma designs to robust React
                 front ends and Node.js back ends, I build intuitive products
                 that solve real problems. I thrive in agile, collaborative
-                environments and love exploring new tech. Let's create something
+                environments and love exploring new tech. Let&apos;s create something
                 impactful together.
               </p>
               {/* Social Media Icons */}

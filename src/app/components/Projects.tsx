@@ -4,10 +4,8 @@
 import Image from "next/image";
 import {
   FaJs,
-  FaFigma,
   FaReact,
   FaNodeJs,
-  FaMousePointer,
 } from "react-icons/fa";
 import { SiFlutter, SiPostgresql } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
@@ -51,7 +49,7 @@ const Projects = () => {
                     ASTU Social Engagement
                   </h3>
                   <p className="text-gray-600 mb-6 flex-grow">
-                    As a key team member, I designed the app's interface in
+                    As a key team member, I designed the app&apos;s interface in
                     Figma and built the frontend. Integrated with a
                     Node.js/Express backend to deliver a seamless mobile and web
                     experience.
