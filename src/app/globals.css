@@ -1,39 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
 
-
 @import "tailwindcss";
 
+/* This enables class-based dark mode. Correct! */
+@custom-variant dark (&:where(.dark, .dark *));
 
 html {
   font-family: 'Inter', sans-serif;
   scroll-behavior: smooth;
 }
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* You can remove the body rule, as it conflicts with the html rule */
 
 .font-arizonia {
   font-family: 'Arizonia', cursive;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #ffffff;
-    --foreground: #ededed;
-  }
-}
-
-/* ...existing code... */
+/* You can remove the :root, @theme, and @media blocks if you use dark: classes in your JSX */
 
 @keyframes wave {
   0% { transform: rotate(0deg); }
@@ -49,13 +33,4 @@ html {
 .animate-wave {
   animation: wave 2s infinite;
   transform-origin: 70% 70%;
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  /* This font-family is likely overridden by the 'html' rule or Tailwind's base styles.
-     You might want to remove it or ensure it's what you intend. */
-  font-family: Arial, Helvetica, sans-serif;
-  scroll-behavior: smooth;
 }

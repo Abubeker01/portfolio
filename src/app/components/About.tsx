@@ -4,18 +4,18 @@ import ccna from "@/assets/ccna.png";
 
 const AboutMe = () => {
   return (
-    <section id="about" className="py-10 md:py-10 scroll-mt-22">
+    <section id="about" className="py-10 md:py-10 scroll-mt-22 dark:bg-gray-900">
       {/* Section Title */}
-      <div className="text-center mb-8">
-        <h2 className="text-4xl font-bold text-gray-800">About Me</h2>
+      <div className="text-center mb-14">
+        <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-400">About Me</h2>
         <div className="mt-2 w-24 h-1 bg-yellow-400 mx-auto"></div>
       </div>
 
-      <div className="bg-white p-8 mx-auto max-w-6xl">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-20 md:gap-20 bg-white">
+      <div className="bg-white mx-auto max-w-6xl">
+        <div className="grid grid-cols-1 gap-20 md:gap-20 bg-white dark:bg-gray-900">
           {/* Left Column: About Me Text */}
           <div className="md:col-span-2 mr-18">
-            <div className="space-y-4 text-gray-600 text-lg leading-relaxed">
+            <div className="space-y-4 text-gray-600 text-lg leading-relaxed dark:text-gray-400">
               <p>
                 As a passionate and detail-oriented software developer, I thrive
                 on turning complex problems into elegant, user-friendly
@@ -28,15 +28,12 @@ const AboutMe = () => {
               </p>
               <p>
                 This theoretical knowledge was consistently put to the test
-                through a variety of hands-on projects, which gave me a holistic
+                through a variety of hands-on projects, which gave me a good
                 understanding of the full development lifecycle. I am as
                 comfortable architecting a backend system as I am designing an
                 intuitive user interface. My passion for design naturally led me
                 to master Figma for wireframing, prototyping, and creating
-                visually appealing and highly functional UIs. This blend of
-                technical expertise and design sensibility is central to how I
-                approach product development, always aiming to create solutions
-                that are both powerful and easy to use. I am now looking to
+                visually appealing and highly functional UIs. I am now looking to
                 bring my skills and dedication to a forward-thinking team where
                 I can contribute to building exceptional software.
               </p>
@@ -45,7 +42,7 @@ const AboutMe = () => {
 
           {/* Right Column: Education & Certifications */}
           <div className="md:col-span-1">
-            <h3 className="text-2xl font-bold text-gray-800 mb-6 -mt-2">
+            <h3 className="text-2xl font-bold text-gray-800 mb-6 -mt-6 dark:text-gray-400">
               Education & Certifications
             </h3>
             <div className="space-y-6">
@@ -61,10 +58,10 @@ const AboutMe = () => {
                   />
                 </div>
                 <div className="ml-4">
-                  <p className="font-semibold text-gray-800">
+                  <p className="font-semibold text-gray-800 dark:text-gray-400">
                     B.Sc. in Computer Science & Engineering
                   </p>
-                  <p className="text-gray-600">
+                  <p className="text-gray-600 dark:text-gray-400">
                     Adama Science & Technology University
                   </p>
                 </div>
@@ -82,10 +79,10 @@ const AboutMe = () => {
                   />
                 </div>
                 <div className="ml-4">
-                  <p className="font-semibold text-gray-800">
+                  <p className="font-semibold text-gray-800 dark:text-gray-400">
                     Completed Cisco Networking courses (CCNA)
                   </p>
-                  <p className="text-gray-600">
+                  <p className="text-gray-600 dark:text-gray-400">
                     via Cisco&apos;s official learning platform
                   </p>
                 </div>

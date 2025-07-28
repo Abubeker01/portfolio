@@ -6,7 +6,7 @@ export default function Contact() {
       id="contact"
       className="bg-white font-sans text-gray-800 antialiased scroll-mt-22"
     >
-      <main className="container mx-auto px-4 py-6 sm:px-6 lg:px-8">
+      <main className="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-12">
@@ -59,16 +59,7 @@ export default function Contact() {
                   </div>
                 </div>
               </div>
-              <div className="mb-6">
-                <a
-                  href="https://drive.google.com/file/d/12Vbuj79YRS9C-8mD40DyMNETYqouo6o0/view?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-8 py-3 bg-yellow-400 text-gray-900 font-bold rounded-lg hover:bg-yellow-500 transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-opacity-50 inline-block text-center"
-                >
-                  Resume
-                </a>
-              </div>
+              
             </div>
 
             {/* Right Column: Contact Form */}
