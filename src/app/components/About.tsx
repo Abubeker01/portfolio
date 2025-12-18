@@ -6,12 +6,12 @@ const AboutMe = () => {
   return (
     <section id="about" className="py-10 md:py-10 px-4 scroll-mt-22 dark:bg-gray-900">
       {/* Section Title */}
-      <div className="text-center mb-14">
+      <div className="text-center mb-8 md:mb-10">
         <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-300">About Me</h2>
         <div className="mt-2 w-24 h-1 bg-yellow-400 mx-auto"></div>
       </div>
 
-      <div className="bg-white dark:bg-gray-800 mx-auto max-w-6xl p-6 sm:p-10 md:p-12 rounded-2xl shadow-lg">
+      <div className="bg-white dark:bg-gray-800 mx-auto max-w-6xl p-6 sm:p-8 md:p-10 rounded-2xl shadow-lg">
         <div className="grid grid-cols-1 gap-10 sm:gap-14 md:gap-20">
           {/* Left Column: About Me Text */}
           <div className="md:col-span-2 mr-18">
@@ -30,8 +30,7 @@ const AboutMe = () => {
                 This theoretical knowledge was consistently put to the test
                 through a variety of hands-on projects, which gave me a good
                 understanding of the full development lifecycle. My passion
-                for design naturally led me to master Figma for wireframing, prototyping, 
-                and creating visually appealing and highly functional UIs. 
+                for design naturally led me to master Figma for creating visually appealing and highly functional UIs. 
                 I am now looking to bring my skills and dedication to 
                 a forward-thinking team where I can contribute to building exceptional software.
               </p>
