@@ -7,7 +7,7 @@ const AboutMe = () => {
     <section id="about" className="py-10 md:py-10 scroll-mt-22 dark:bg-gray-900">
       {/* Section Title */}
       <div className="text-center mb-14">
-        <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-400">About Me</h2>
+        <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-300">About Me</h2>
         <div className="mt-2 w-24 h-1 bg-yellow-400 mx-auto"></div>
       </div>
 

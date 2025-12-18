@@ -17,15 +17,15 @@ interface SectionProps {
 // Individual Skill Card Component
 const SkillCard = ({ icon, name }: SkillProps) => (
   <div className="flex flex-col items-center justify-center p-4 transition-transform transform hover:scale-110">
-    <div className="text-5xl mb-2 text-gray-700">{icon}</div>
-    <p className="text-sm font-medium text-gray-600">{name}</p>
+    <div className="text-5xl mb-2 text-gray-700 dark:text-gray-100">{icon}</div>
+    <p className="text-sm font-medium text-gray-600 dark:text-gray-300">{name}</p>
   </div>
 );
 
 // Reusable Section Component
 const Section = ({ title, skills }: SectionProps) => (
   <div className="mb-12">
-    <h3 className="text-lg font-semibold text-gray-500 mb-6 tracking-widest">{title}</h3>
+    <h3 className="text-lg font-semibold text-gray-500 dark:text-gray-300 mb-6 tracking-widest">{title}</h3>
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-x-8 gap-y-6">
       {skills.map((skill) => (
         <SkillCard key={skill.name} icon={skill.icon} name={skill.name} />
@@ -62,10 +62,10 @@ const Skills = () => {
   ];
 
   return (
-    <div className="bg-white font-sans p-8 md:p-12 lg:p-16">
-      <div className="max-w-6xl mx-auto">
+    <div className="w-full font-sans">
+      <div className="max-w-6xl mx-auto p-8 md:p-12 lg:p-16 dark:text-gray-300">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-800 tracking-wider">SKILLS</h2>
+          <h2 className="text-3xl font-bold text-gray-800 tracking-wider dark:text-gray-300">SKILLS</h2>
           <div className="w-20 h-1 bg-yellow-400 mx-auto mt-2"></div>
         </div>
 
@@ -79,7 +79,10 @@ const Skills = () => {
 
 export default function Skill() {
   return (
-    <main id='skill' className="flex items-center justify-center min-h-screen bg-white scroll-mt-22">
+    <main
+      id='skill'
+      className="flex min-h-screen w-full justify-center bg-gray-900 text-gray-300 scroll-mt-22 "
+    >
       <Skills />
     </main>
   );

@@ -18,7 +18,7 @@ const Projects = () => {
       <div className="container mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         {/* Section Title */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-400">Case Studies</h2>
+          <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-300 ">Case Studies</h2>
           <div className="mt-2 w-24 h-1 bg-yellow-400 mx-auto"></div>
         </div>
 

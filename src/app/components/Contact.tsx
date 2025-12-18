@@ -4,21 +4,21 @@ export default function Contact() {
   return (
     <div
       id="contact"
-      className="bg-white font-sans text-gray-800 antialiased scroll-mt-22"
+      className="bg-white font-sans text-gray-800 antialiased scroll-mt-22 dark:bg-gray-900 dark:text-gray-300"
     >
       <main className="container mx-auto px-4 py-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-12">
             <div className="mb-8">
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-300">
                 Get In Touch
               </h1>
               <div className="mt-3 flex justify-center">
                 <div className="w-24 h-1 bg-yellow-400 rounded"></div>
               </div>
             </div>
-            <p className="mt-6 text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="mt-6 text-lg text-gray-600 max-w-2xl mx-auto dark:text-gray-300">
               Have a question, a project in mind, or just want to say hello?
               I&apos;d love to hear from you! Please use the form below or find
               my contact details below.
@@ -38,7 +38,7 @@ export default function Contact() {
                     <p className="font-semibold text-lg">Email:</p>
                     <a
                       href="mailto:abubekermurad1@gmail.com"
-                      className="text-gray-600 hover:text-blue-600 transition-colors"
+                      className="text-gray-600 hover:text-blue-600 transition-colors dark:text-gray-300"
                     >
                       abubekermurad1@gmail.com
                     </a>
@@ -52,7 +52,7 @@ export default function Contact() {
                     <p className="font-semibold text-lg">Phone:</p>
                     <a
                       href="tel:+251965846324"
-                      className="text-gray-600 hover:text-blue-600 transition-colors"
+                      className="text-gray-600 hover:text-blue-600 transition-colors dark:text-gray-300"
                     >
                       +251965846324
                     </a>
