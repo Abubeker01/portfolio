@@ -9,15 +9,15 @@ export default function Hero() {
   return (
     <div
       id="home"
-      className="bg-white mb-6 pt-2 font-sans text-gray-800 scroll-mt-28 
+      className="bg-white mb-6 pt-8 md:pt-2 font-sans text-gray-800 scroll-mt-28 
       dark:bg-gray-900 dark:text-gray-300"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Content Section */}
-        <main className="md:mt-5 px-4 md:px-20">
-          <div className="flex flex-col-reverse md:flex-row gap-16 items-center">
+        <main className="md:mt-5 px-3 sm:px-4 md:px-20">
+          <div className="flex flex-col-reverse md:flex-row gap-10 md:gap-16 items-center">
             {/* Left Column: Text Content */}
-            <div className="flex flex-col gap-6 -mt-5 w-full md:w-1/2">
+            <div className="flex flex-col gap-6 -mt-2 md:mt-0 w-full md:w-1/2">
               <h1 className="text-6xl md:text-7xl font-bold tracking-tight">
                 Hi there!{" "}
                 <span className="inline-block origin-[70%_70%] animate-wave">
@@ -68,14 +68,14 @@ export default function Hero() {
             </div>
 
             {/* Right Column: Image */}
-            <div className="relative flex justify-center items-center w-full md:w-1/2 mb-20">
+            <div className="relative flex justify-center items-center w-full md:w-1/2 mb-10 md:mb-20">
               {/* Decorative background shape */}
               <div className="absolute inset-0 bg-blue-50 transform -skew-y-6 rounded-3xl z-0 opacity-20 dark:bg-gray-900"></div>
               <div className="relative z-10 p-1 bg-white rounded-2xl shadow-4xl dark:bg-gray-900">
                 <Image
                   src={heroImg}
                   alt="Abubeker - Full-Stack Developer"
-                  className="h-40 w-40 rounded-full md:h-[510px] md:w-auto md:rounded-xl"
+                  className="h-48 w-48 rounded-full md:h-[510px] md:w-auto md:rounded-xl"
                 />
               </div>
             </div>

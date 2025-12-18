@@ -62,8 +62,8 @@ const Skills = () => {
   ];
 
   return (
-    <div className="w-full font-sans">
-      <div className="max-w-6xl mx-auto p-8 md:p-12 lg:p-16 dark:text-gray-300">
+    <div className="w-full font-sans text-gray-800 dark:text-gray-300">
+      <div className="max-w-6xl mx-auto p-8 md:p-12 lg:p-16">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-800 tracking-wider dark:text-gray-300">SKILLS</h2>
           <div className="w-20 h-1 bg-yellow-400 mx-auto mt-2"></div>
@@ -81,7 +81,7 @@ export default function Skill() {
   return (
     <main
       id='skill'
-      className="flex min-h-screen w-full justify-center bg-gray-900 text-gray-300 scroll-mt-22 "
+      className="flex min-h-screen w-full justify-center bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-300 scroll-mt-22"
     >
       <Skills />
     </main>
